@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react'   
 import{ connect } from 'react-redux';
 import evilminion from'../Images/evil-minion.jpg';
 import buzzlightyear from'../Images/buzz-lightyear.jpg';
 import killerrobot from'../Images/killer-robot.jpg';
 import babygroot from'../Images/baby-groot.jpg';
+import traxxas from'../Images/traxxas.jpg'
 
 function Cart({basketProps}){
     console.log (basketProps);
@@ -18,7 +19,7 @@ function Cart({basketProps}){
         }
         console.log(productsInCart);
     });
-    const productImages=[evilminion, buzzlightyear, killerrobot, babygroot]
+    const productImages=[evilminion, buzzlightyear, killerrobot, babygroot,traxxas]
     productsInCart=productsInCart.map( (product,index)=>{
         console.log("My product is");
         console.log(product);

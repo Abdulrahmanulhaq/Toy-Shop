@@ -3,6 +3,7 @@ import evilminion from'../Images/evil-minion.jpg';
 import buzzlightyear from'../Images/buzz-lightyear.jpg';
 import killerrobot from'../Images/killer-robot.jpg';
 import babygroot from'../Images/baby-groot.jpg';
+import traxxas from'../Images/traxxas.jpg';
 import{ connect } from 'react-redux';
 import{addBasket} from '../Actions/addActions';         
 
@@ -35,6 +36,12 @@ const Home=(props)=> {
                 <h3>Baby Groot</h3>
                 <h3>$42,78</h3>
                 <a onClick={() =>props.addBasket('babygroot')} className="addToCart cart4" href="#">Add to Cart</a>
+            </div>
+            <div className="image">
+                <img src={traxxas} alt="Traxxas XO-1" title='Traxxas XO-1'/>
+                <h3>Traxxas XO-1</h3>
+                <h3>$950</h3>
+                <a onClick={() =>props.addBasket('traxxas')} className="addToCart cart5" href="#">Add to Cart</a>
             </div>
 
         </div>

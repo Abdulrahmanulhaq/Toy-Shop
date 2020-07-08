@@ -27,7 +27,13 @@ const initialState= {
             price:42.78,
             numbers:0,
             inCart:false
-        }
+        },
+        traxxas:{
+            name:"Traxxas XO-1",
+            price:950,
+            numbers:0,
+            inCart:false
+        },
     }
 };
 export default(state=initialState, action)=>{
