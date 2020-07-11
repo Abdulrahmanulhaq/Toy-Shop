@@ -1,4 +1,4 @@
-import { ADD_PRODUCT_BASKET,GET_NUMBERS_BASKET } from "../Actions/types";
+import { ADD_PRODUCT_BASKET,GET_NUMBERS_BASKET,INCREASE_QUANTITY,DECREASE_QUANTITY } from "../Actions/types";
 
 const initialState= {
     basketNumbers:0,
@@ -8,20 +8,6 @@ const initialState= {
             name:"Evil Minion",
             tagName:'evilminion',
             price:39.08,
-            numbers:0,
-            inCart:false
-        },
-        buzzlightyear:{
-            name:"Buzz Lightyear",
-            tagName:'Buzz Lightyear',
-            price:67.47,
-            numbers:0,
-            inCart:false
-        },
-        killerrobot:{
-            name:"Killer Robot",
-            tagName:' Killer Robot',
-            price:36.94,
             numbers:0,
             inCart:false
         },
@@ -39,24 +25,10 @@ const initialState= {
             numbers:0,
             inCart:false
         },
-        batman:{
-            name:"Batman",
-            tagName:' Batman',
-            price:10,
-            numbers:0,
-            inCart:false
-        },
         biglogo:{
             name:"Lego Technic Car Transporter",
             tagName:'biglogo',
             price:600,
-            numbers:0,                                                                                                      
-            inCart:false
-        },
-        legobugatti:{
-            name:"Lego Technic Buggati Chiron",
-            tagName:' Legobugatti',
-            price:720,
             numbers:0,                                                                                                      
             inCart:false
         },
@@ -147,24 +119,54 @@ const initialState= {
     }
 };
 export default(state=initialState, action)=>{
+    let productSelected="";
     switch(action.type){
         case ADD_PRODUCT_BASKET:
-            let addQuantity={...state.products[action.payload]}
-            addQuantity.numbers += 1;
-            addQuantity.inCart = true;
-            console.log(addQuantity);
+            productSelected={...state.products[action.payload]}
+            productSelected.numbers += 1;
+            productSelected.inCart = true;
+            console.log(productSelected);
             return{
                 ...state,
                 basketNumbers:state.basketNumbers+1,
                 cartCost:state.cartCost+state.products[action.payload].price,
                 products:{
                     ...state.products,
-                    [action.payload]:addQuantity    
+                    [action.payload]:productSelected    
                 }
             }
         case GET_NUMBERS_BASKET:
             return{
                 ...state
+            }
+        case INCREASE_QUANTITY:
+            productSelected={...state.products[action.payload]}
+            productSelected.numbers+=1;
+            return{
+                ...state,
+                cartCost:state.cartCost+state.products[action.payload].price,
+                products: {
+                    ...state.products,
+                    [action.payload]:productSelected
+                }
+            }
+        case DECREASE_QUANTITY:
+            productSelected={...state.products[action.payload]}
+            let newCartCost=0;
+            if(productSelected.numbers===0){
+                productSelected.numbers=0;
+                newCartCost=state.cartCost;
+            }else{
+                productSelected.numbers-=1;
+                newCartCost=state.cartCost-state.products[action.payload].price
+            }
+            return{
+                ...state,
+                cartCost:newCartCost,
+                products: {
+                    ...state.products,
+                    [action.payload]:productSelected
+                }
             }
         default:
             return state;

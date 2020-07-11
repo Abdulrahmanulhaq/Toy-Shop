@@ -118,9 +118,7 @@ li a:hover{
 .image:hover .cart17,
 .image:hover .cart18,
 .image:hover .cart19,
-.image:hover .cart20,
-.image:hover .cart21,
-.image:hover .cart22{
+.image:hover .cart20{
   bottom: 48px;
   opacity: 1;
   padding: 10px;
