@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=MuseoModerno:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Exo+2&family=Indie+Flower&family=Pangolin&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -27,23 +34,32 @@ nav{
 }
 h2{
  color: rgb(255, 255, 255);
- font-size: 45px;
- font-family: 'MuseoModerno', cursive;
- padding-bottom: 40px;
+ font-size: 63px;
+ font-family: 'Amatic SC', cursive;
  font-weight: bold;
+}
+nav h2{
+  padding-bottom: 2rem;
 }
 nav li{
   list-style: none;
   display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 20px;
+  padding-right: 9px;
+  padding-left: 2px;
+  padding-top: 27px;
 }
 li a{
-  padding: 5px;
+  padding: 8px;
+  border-radius: 20px;
   background-color: rgb(255, 208, 0);
-  color: rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+}
+li a:hover{
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border-radius: 10px;
 }
 .cart ion-icon{
   vertical-align: bottom;
@@ -86,7 +102,25 @@ li a{
 .image:hover .cart1,
 .image:hover .cart2,
 .image:hover .cart3,
-.image:hover .cart4{
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9,
+.image:hover .cart10,
+.image:hover .cart11,
+.image:hover .cart12,
+.image:hover .cart13,
+.image:hover .cart14,
+.image:hover .cart15,
+.image:hover .cart16,
+.image:hover .cart17,
+.image:hover .cart18,
+.image:hover .cart19,
+.image:hover .cart20,
+.image:hover .cart21,
+.image:hover .cart22{
   bottom: 48px;
   opacity: 1;
   padding: 10px;
@@ -100,8 +134,8 @@ li a{
   margin-top: 50px;
   }
   .container-products ion-icon{
-  font-size: 25px;
-  color: blue;
+  font-size: 30px;
+  color: rgb(0, 0, 255);
   margin-left: 10px;
   margin-right: 10px;
   cursor: pointer;
@@ -111,30 +145,36 @@ li a{
   max-width: 650px;
   display: flex;
   justify-content: flex-start;
-  border-bottom: 4px solid rgb(196, 121, 121);
+  border-bottom: 4px solid rgb(255, 145, 0);
   margin: 0 auto;
   }
   .product-title{
+    font-family: 'Cairo', sans-serif;
   width: 5%;
   padding-right: 100px;
   }
   .price{
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;  
   width: 39%;
-  border-bottom: 1px solid rgb(25, 22, 168);
+  border-bottom: 3px solid rgb(17, 209, 0);
   display: flex;
   align-items: center;
   padding-left: 15%;
   }
   .quantity{
+    font-family: 'Cairo', sans-serif;  
   width: 30%;
-  border-bottom: 1px solid rgb(17, 209, 0);
+  border-bottom: 5px solid rgb(195, 0, 255);
   display: flex;
   align-items: center;
   padding-right: 5%;
   }
   .total{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;  
   width: 10%;
-  border-bottom: 1px solid rgb(235, 193, 7);
+  border-bottom: 7px solid rgb(235, 193, 7);
   display: flex;
   align-items: center;
   padding-left: 40px;
@@ -147,7 +187,7 @@ li a{
   align-items: center;
   padding: 10px 0;
   padding-right: 60px;
-  border-bottom: 1px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(255, 0, 0);
   }
   .product ion-icon{
   cursor: pointer;
@@ -157,7 +197,7 @@ li a{
   display: flex;
   flex-wrap: wrap;
   }
-  .productImages{
+  .products img{
     max-width: 10px;
     max-height: 10px;
     }
@@ -168,7 +208,9 @@ li a{
   padding: 10px 0;
   }
   .basketTotalTitle{
-  width: 30%;
+    width: 30%;
+    height: 20%;
+    font-weight: bold;
   }
   .basketTotal{
   width: 10%;
