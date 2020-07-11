@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react' 
-import{productQuantity} from '../Actions/productQuantity.js';
+import{productQuantity,clearProduct} from '../Actions/productQuantity.js';
 import{ connect } from 'react-redux';
 import evilminion from'../Images/evil-minion-2.jpg';
 import babygroot from'../Images/baby-groot.jpg';
@@ -18,7 +18,7 @@ import nerf3 from'../Images/nerf-3.jpg';
 import nerf4 from'../Images/nerf-4.jpg.jpg';
 import stroomtrooper from'../Images/stroom-trooper.jpg';
 
-function Cart({basketProps,productQuantity}){
+function Cart({basketProps,productQuantity,clearProduct}){
     console.log (basketProps);
 
     let productsInCart=[];
@@ -81,7 +81,7 @@ function Cart({basketProps,productQuantity}){
         return(
             <Fragment key={index}>
                 
-                 <div className="product"><ion-icon name="close-circle-outline"></ion-icon><img src={productImages(product)}/>
+                 <div className="product"><ion-icon onClick={()=>clearProduct(product.tagName)}name="close-circle-outline"></ion-icon><img src={productImages(product)}/>
                     <span className="sm-hide">{product.name}</span>
                 </div>
                 <div className="price sm-hide">${product.price},00</div>
@@ -116,4 +116,4 @@ function Cart({basketProps,productQuantity}){
 const mapStateToProps=state=>({
     basketProps:state.basketState 
 });
-export default connect( mapStateToProps,{productQuantity})(Cart);
+export default connect( mapStateToProps,{productQuantity,clearProduct})(Cart);

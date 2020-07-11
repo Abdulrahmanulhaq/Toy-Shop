@@ -41,6 +41,10 @@ h2{
 nav h2{
   padding-bottom: 2rem;
 }
+div h3{
+  color: #000000;
+  font-weight: bold;
+}
 nav li{
   list-style: none;
   display: inline-block;
@@ -57,9 +61,10 @@ li a{
   text-decoration: none;
 }
 li a:hover{
+  padding: 9px;
   color: rgb(0, 0, 0);
   font-weight: bolder;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .cart ion-icon{
   vertical-align: bottom;
