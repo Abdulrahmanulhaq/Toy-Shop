@@ -218,7 +218,7 @@ li a:hover{
   .basketTotal{
   width: 10%;
   }
-  @media(max-width:500px){
+  @media(max-width:200px){
   nav h2{
   width: 100%;
   text-align: center;
@@ -234,5 +234,27 @@ li a:hover{
   .basketTotalContainer{
   padding-right: 8%;
   }
+  li a{
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 208, 0);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  li a:hover{
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 15px;
+}
+nav li{
+  list-style: none;
+  display: inline-block;
+  padding-bottom: 3rem;
 } 
+
+}
+
+  
   
