@@ -14,7 +14,7 @@
   font-family: 'Roboto', sans-serif;
 }
 header{
-  background-image: url(Images/nike1.jpg);
+  background-image: url(Images/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom 5rem;
@@ -61,10 +61,10 @@ li a{
   text-decoration: none;
 }
 li a:hover{
-  padding: 9px;
+  padding: 10px;
   color: rgb(0, 0, 0);
-  font-weight: bolder;
-  border-radius: 7px;
+  font-size: 16px;
+
 }
 .cart ion-icon{
   vertical-align: bottom;
