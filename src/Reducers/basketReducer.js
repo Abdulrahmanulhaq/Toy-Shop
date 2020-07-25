@@ -5,105 +5,105 @@ const initialState= {
     cartCost:0,
     products:{
         evilminion:{
-            name:"Evil Minion",
+            name:"LeBron 17",
             tagName:'evilminion',
             price:39.08,
             numbers:0,
             inCart:false
         },
         babygroot:{
-            name:"Baby Groot",
+            name:"Nike Air Max Plus 3",
             tagName:'babygroot',
             price:42.78,
             numbers:0,
             inCart:false
         },
         traxxas:{
-            name:"Traxxas XO-1",
+            name:"Air Jordan IX Retro",
             tagName:'traxxas',
             price:950,
             numbers:0,
             inCart:false
         },
         biglogo:{
-            name:"Lego Technic Car Transporter",
+            name:"Women's Air Jordan I High OG",
             tagName:'biglogo',
             price:600,
             numbers:0,                                                                                                      
             inCart:false
         },
         legocar3:{
-            name:"Lego Aston Martin DB5",
+            name:"Lebron 17 Monstars",
             tagName:'legocar3',
             price:420,
             numbers:0,                                                                                                      
             inCart:false
         },
         legocar4:{
-            name:"Lego Ferrari F8",
+            name:"Air Jordan III Retro U",
             tagName:'legocar4',
             price:390,
             numbers:0,                                                                                                      
             inCart:false
         },
          legocharger:{
-            name:"Lego Mustang",
+            name:"KYRIE 6 Trophies",
             tagName:'legocharger',
             price:420,
             numbers:0,                                                                                                      
             inCart:false
          },
          legododge:{
-            name:"Lego Technic Dodge Charger",
+            name:"KD 12 Don C",
             tagName:'legododge',
             price:520,
             numbers:0,                                                                                                      
             inCart:false
          },
          legofigure2:{
-            name:"Lego Gamer",
+            name:"Nike Mag",
             tagName:'legofigure2',
             price:8,
             numbers:0,                                                                                                      
             inCart:false
          },
          legoporsche:{
-            name:"Lego Technic Porsche 911 RSR",
+            name:"Specjalna edycja Air Jordan 34",
             tagName:'legoporsche',
             price:711,
             numbers:0,                                                                                                      
             inCart:false
          },
          legostarwars:{
-            name:"Lego Anakins Jedi Interceptor",
+            name:"PG4 Gatorade ASW",
             tagName:'legostarwars',
             price:390,
             numbers:0,                                                                                                      
             inCart:false
          },
          minecraftlego:{
-            name:"Lego Minecraft Creeper and Cat",
+            name:"All Star Pro BB Pack",
             tagName:'minecraftlego',
             price:96,
             numbers:0,                                                                                                      
             inCart:false
          },
          minionlego:{
-            name:"Lego Minion Robot",
+            name:"Jordan Why Not Zer0.3",
             tagName:'minionlego',
             price:106,
             numbers:0,                                                                                                      
             inCart:false
          },
          nerf3:{
-            name:"Nerf N-Strike Elite Infinus",
+            name:"Nike Mercurial Superfly 7 Elite CR7 Safari FG",
             tagName:'nerf3',
             price:650,
             numbers:0,                                                                                                      
             inCart:false
          },
          nerf4:{
-            name:"Nerf Rival Nemesis MXVII-10K",
+            name:"Nike Air Max 270 G",
             tagName:'nerf4',
             price:850,
             numbers:0,                                                                                                      

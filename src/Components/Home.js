@@ -43,9 +43,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                         <div >
-                            <img src={legocar3} alt="Lego Aston Martin DB5" title='Lego Aston Martin DB5'/>
-                            <h3>Lego Aston Martin DB5</h3>
-                            <h3>$420</h3>
+                            <img src={legocar3} alt="Lebron 17 Monstars" title='Lebron 17 Monstars'/>
+                            <h3>Lebron 17 "Monstars"</h3>
+                            <h3>$820</h3>
                             <button onClick={() =>props.addBasket('legocar3')}  >Add to Cart</button>
                         </div>
                     </Paper>
@@ -53,8 +53,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={legoporsche} alt="Lego Technic Porsche 911 RSR" title='Lego Technic Porsche 911 RSR'/>
-                        <h3>Lego Technic Porsche 911 RSR</h3>
+                        <img src={legoporsche} alt="Specjalna edycja Air Jordan 34" title='Specjalna edycja Air Jordan 34'/>
+                        <h3>Specjalna edycja Air Jordan 34</h3>
                         <h3>$711</h3>
                         <button onClick={() =>props.addBasket('legoporsche')}  >Add to Cart</button>
                     </div>
@@ -63,9 +63,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div>
-                        <img src={traxxas} alt="Traxxas XO-1" title='Traxxas XO-1'/>
-                        <h3>Traxxas XO-1</h3>
-                        <h3>$950</h3>
+                        <img src={traxxas} alt="Air Jordan IX Retro" title='Air Jordan IX Retro'/>
+                        <h3>Air Jordan IX Retro</h3>
+                        <h3>$750</h3>
                         <button onClick={() =>props.addBasket('traxxas')}  >Add to Cart</button>
                     </div>
                     </Paper>
@@ -76,8 +76,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={biglogo} alt="Lego Technic Car Transporter" title='Lego Technic Car Transporter'/>
-                        <h3>Lego Technic Car Transporter</h3>
+                        <img src={biglogo} alt="Women's Air Jordan I High OG" title='Womens Air Jordan I High OG'/>
+                        <h3>Women's Air Jordan I High OG</h3>
                         <h3>$600</h3>
                         <button onClick={() =>props.addBasket('biglogo')} >Add to Cart</button>
                     </div>                    </Paper>
@@ -85,8 +85,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={legocar4} alt="Lego Ferrari F8" title='Lego Ferrari F8'/>
-                        <h3>Lego Ferrari F8</h3>
+                        <img src={legocar4} alt="Air Jordan III Retro U" title='Air Jordan III "Retro U"'/>
+                        <h3>Air Jordan III "Retro U"</h3>
                         <h3>$390</h3>
                         <button onClick={() =>props.addBasket('legocar4')} >Add to Cart</button>
                     </div>                    
@@ -95,8 +95,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={legocharger} alt="Lego Mustang" title='Lego Mustang'/>
-                        <h3>Lego Mustang</h3>
+                        <img src={legocharger} alt="KYRIE 6 Trophies" title='KYRIE 6 "Trophies"'/>
+                        <h3>KYRIE 6 "Trophies"</h3>
                         <h3>$420</h3>
                         <button onClick={() =>props.addBasket('legocharger')} >Add to Cart</button>
                     </div>                    
@@ -109,8 +109,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div>
-                        <img src={legododge} alt="Lego Technic Dodge Charger" title='Lego Technic Dodge Charger'/>
-                        <h3>Lego Technic Dodge Charger</h3>
+                        <img src={legododge} alt="KD 12 Don C" title='KD 12 Don C'/>
+                        <h3>KD 12 "Don C"</h3>
                         <h3>$520</h3>
                         <button onClick={() =>props.addBasket('legododge')} >Add to Cart</button>
                     </div>                    
@@ -119,9 +119,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={legofigure2} alt="Lego Gamer" title='Lego Gamer'/>
-                        <h3>Lego Gamer</h3>
-                        <h3>$8</h3>
+                        <img src={legofigure2} alt="Nike Mag" title='Nike Mag'/>
+                        <h3>Nike Mag</h3>
+                        <h3>$9000</h3>
                         <button onClick={() =>props.addBasket('legofigure2')}  >Add to Cart</button>
                     </div>
                     </Paper>
@@ -129,8 +129,8 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div>
-                        <img src={legostarwars} alt="Lego Anakins Jedi Interceptor" title='Lego Anakins Jedi Interceptor'/>
-                        <h3>Lego Anakins Jedi Interceptor</h3>
+                        <img src={legostarwars} alt="PG4 Gatorade ASW" title='PG4 Gatorade "ASW"'/>
+                        <h3>PG4 Gatorade "ASW"</h3>
                         <h3>$390</h3>
                         <button onClick={() =>props.addBasket('legostarwars')}  >Add to Cart</button>
                     </div>
@@ -142,9 +142,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={minecraftlego} alt="Lego Minecraft Creeper and Cat" title='Lego Minecraft Creeper and Cat'/>
-                        <h3>Lego Minecraft Creeper and Cat</h3>
-                        <h3>$96</h3>
+                        <img src={minecraftlego} alt="All Star Pro BB Pack" title='All Star Pro BB Pack'/>
+                        <h3>All Star Pro BB Pack</h3>
+                        <h3>$206</h3>
                         <button onClick={() =>props.addBasket('minecraftlego')}  >Add to Cart</button>
                     </div>                 
                     </Paper>
@@ -152,9 +152,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={minionlego} alt="Lego Minion Robot" title='Lego Minion Robot'/>
-                        <h3>Lego Minion Robot</h3>
-                        <h3>$106</h3>
+                        <img src={minionlego} alt="Jordan Why Not Zer0.3" title='Jordan Why Not Zer0.3'/>
+                        <h3>Jordan Why Not Zer0.3</h3>
+                        <h3>$706</h3>
                         <button onClick={() =>props.addBasket('minionlego')}  >Add to Cart</button>
                     </div>
                     </Paper>
@@ -162,9 +162,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={nerf3} alt="Nerf N-Strike Elite Infinus" title='Nerf N-Strike Elite Infinus'/>
-                        <h3>Nerf N-Strike Elite Infinus</h3>
-                        <h3>$650</h3>
+                        <img src={nerf3} alt="Nike Mercurial Superfly 7 Elite CR7 Safari FG" title='Nike Mercurial Superfly 7 Elite CR7 Safari FG'/>
+                        <h3>Nike Mercurial Superfly 7 Elite CR7 Safari FG</h3>
+                        <h3>$950</h3>
                         <button onClick={() =>props.addBasket('nerf3')}  >Add to Cart</button>
                     </div>
                     </Paper>
@@ -176,9 +176,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div>
-                        <img src={nerf4} alt="Nerf Rival Nemesis MXVII-10K" title='Nerf Rival Nemesis MXVII-10K'/>
-                        <h3>Nerf Rival Nemesis MXVII-10K</h3>
-                        <h3>$850</h3>
+                        <img src={nerf4} alt="Nike Air Max 270 G" title='Nike Air Max 270 G'/>
+                        <h3>Nike Air Max 270 G</h3>
+                        <h3>$450</h3>
                         <button onClick={() =>props.addBasket('nerf4')}  >Add to Cart</button>
                     </div>
 
@@ -187,9 +187,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={evilminion} alt="Evil Minion" title='evil minion'/>
-                        <h3>Evil Minion</h3>
-                        <h3>$39,08</h3>
+                        <img src={evilminion} alt="LeBron 17" title='LeBron 17'/>
+                        <h3>LeBron 17</h3>
+                        <h3>$398</h3>
                         <button onClick={() =>props.addBasket('evilminion')} >Add to Cart</button>
                     </div>
                     </Paper>
@@ -197,9 +197,9 @@ const Home=(props)=> {
                 <Grid item xs>
                     <Paper className={classes.paper}>
                     <div >
-                        <img src={babygroot} alt="Baby Groot" title='baby groot'/>
-                        <h3>Baby Groot</h3>
-                        <h3>$42,78</h3>
+                        <img src={babygroot} alt="Nike Air Max Plus 3" title='Nike Air Max Plus 3'/>
+                        <h3>Nike Air Max Plus 3</h3>
+                        <h3>$478</h3>
                         <button onClick={() =>props.addBasket('babygroot')} >Add to Cart</button>
                     </div>
                     </Paper>
